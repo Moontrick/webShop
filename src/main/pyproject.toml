@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "main"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+pydantic = "^2.6.4"
+aiohttp = "^3.9.3"
+asyncio = "^3.4.3"
+aiokafka = "^0.10.0"
+asyncpg = "^0.29.0"
+
+[tool.poetry.scripts]
+app = "main.main:start"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
