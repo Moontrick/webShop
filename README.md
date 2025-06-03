@@ -1,14 +1,17 @@
-Проект Магазина
+**Проект Магазина**
 
 
-Микросервисы:
-main
-users_service
-order_service
-products_service
+**Микросервисы:**
+- main
+- users_service
+- order_service
+- products_service
 
-Патерн OutBox
+**Патерн OutBox**
+**Сообщения через Kafka** 
+**База данных: postgres 14**
 
-Сообщения через Kafka
-
-База данных: postgres 14
+- **Запуск проекта:**
+ ```bash
+  docker-compose up
+```
